@@ -171,6 +171,7 @@ main .container .sub1 .txt i.aut {
   margin-right: 12px;
   font-family: 'Tangerine', cursive;
   font-weight: 900;
+  margin-top: 12px;
 }
 
 main .container .sub1 .txt::before {
