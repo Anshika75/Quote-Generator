@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./sass/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <title>Quote Generator</title>
+</head>
+<body>
+    <div class="icon" onclick="themechange()">
+        <i id="icon" class="fas fa-sun"></i>
+    </div>
+    <div class="ham" id="ham">
+        <i class="fas fa-bars"></i>
+    </div>
+    <main>
+        <div class="container">
+            <div class="sub1">
+                <div class="txt">
+                    <p id="quote"> <i class="fas fa-quote-left"></i> You only live once, but if you do it right, once is enough</p>
+                    <i class="aut">~<em id="author">Mae West</em></i>
+                </div>
+            </div>
+            <div class="sub2">
+                <div class="like"><i class="fas fa-heart"></i></div>
+                <div class="btn" id="btn">New Quote</div>
+                <div class="share"><i class="fas fa-share-alt"></i></div>
+            </div>
+        </div>
+        <div class="menu" id="menu">
+            <i class="fa fa-times" id="close"></i>
+            <div class="list" id="list"></div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
